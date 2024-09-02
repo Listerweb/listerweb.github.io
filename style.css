@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 10px;
+  border: 2px solid #1f51b3;
+  border-radius: 10px;
+  padding: 10px;
+}
+div {
+  float: center;
+  display: inline;
+  display: inline-block;
+}
+img {
+  width: 300px;
+  height: 150px;
+  border: 2px solid #1f51b3;
+  border-radius: 10px;
+}
+video {
+  width: 550px;
+}
+.content {
+  font-size: 16px;
+}
