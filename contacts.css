@@ -1,6 +1,7 @@
 body {
   font-family: "SUSE", cursive;
 }
+
 .avatar {
   width: 250px;
   height: 350px;
@@ -22,6 +23,7 @@ main {
   border: solid 3px #fc2c2b;
   border-radius: 7px;
   background-color: #f08f8f;
+  text-decoration: none;
 }
 .siteLink:hover {
   color: #1d1b1b;
@@ -40,6 +42,7 @@ main {
   border: solid 3px #33aae2;
   border-radius: 7px;
   background-color: #98c7dd;
+  text-decoration: none;
 }
 .telegram:hover {
   color: #1d1b1b;
@@ -58,6 +61,7 @@ main {
   border: solid 3px #0cc143;
   border-radius: 7px;
   background-color: #ade5be;
+  text-decoration: none;
 }
 .whatsApp:hover {
   color: #1d1b1b;
