@@ -12,7 +12,6 @@ header {
   padding: 10px;
 }
 div {
-  float: center;
   display: inline;
   display: inline-block;
 }
@@ -27,4 +26,7 @@ video {
 }
 .content {
   font-size: 16px;
+}
+body {
+  font-family: "SUSE", cursive;
 }
