@@ -1,45 +1,42 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Видео Хостинг</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>Центр независимых иследований им. Мещерякова В.Г</h1>
-        <ul>
-          <a href="/index.html"><li class="menu">Главная</li></a>
-          <a href="/vk.html"><li class="menu">В контакте</li></a>
-          <a href="/youtube.html"><li class="menu">Youtube</li></a>
-          <a href="/contacts.html"><li class="menu">Контакты</li></a>
-        </ul>
-      </nav>
-    </header>
     <main>
-      <!--vk-->
-      <div>
-        <h2>В контакте</h2>
-        <a href="/vk.html">
-          <img src="/images/alliancePlus.png" alt="Alliance" />
-          <h4>Компания Alliance Plus презентует...</h4>
-        </a>
-      </div>
+      <div class="form-container">
+        <div class="form-inside">
+          <div class="form-title">
+            <h2>Контактная форма</h2>
+            <p>Пожалуйста, заполните форму ниже</p>
+          </div>
 
-      <!--youtube-->
-      <div>
-        <h2>Youtube</h2>
-        <a href="/youtube.html">
-          <img src="/images/tmacraft.png" alt="Tmcraft" />
-          <h4>Tmcraft настоятельно не рекомендует...</h4>
-        </a>
+          <form>
+            <label
+              >Имя пользователя<input type="text" placeholder="Имя"
+            /></label>
+
+            <input type="text" placeholder="Фамилия" />
+            <label>Email<input type="email" placeholder="Email" /></label>
+            <label
+              >Тема письма
+              <textarea
+                class="desc"
+                name="message"
+                placeholder="Ваше сообщение"
+              ></textarea>
+            </label>
+
+            <button>Отправить</button>
+          </form>
+        </div>
       </div>
+      <div class="image"><img src="/images/cosmonaut.png" /></div>
     </main>
   </body>
 </html>
