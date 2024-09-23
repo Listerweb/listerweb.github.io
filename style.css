@@ -30,11 +30,7 @@ img {
   border-radius: 10px;
   box-shadow: none;
 }
-.button {
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 25px;
-}
+
 p {
   font-size: 18px;
 }
@@ -86,8 +82,7 @@ h3 {
   font-size: 18px;
   text-align: center;
 }
-li,
-.button {
+li {
   background: transparent;
   list-style-type: none;
   padding: 15px;
@@ -97,14 +92,22 @@ li,
 }
 li:hover,
 img:hover,
-button:hover {
+.button:hover {
   border-color: #f32e14;
   box-shadow: 2px 2px 5px #181818;
 }
 .icon {
   width: 17px;
 }
+.button {
+  background: transparent;
+  list-style-type: none;
+  padding: 15px;
 
+  border: #181818 solid 2px;
+  border-radius: 10px;
+  box-shadow: none;
+}
 .artwork-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -133,6 +136,13 @@ button:hover {
     opacity: 1;
   }
 }
+/*
+.artwork-right {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 25px;
+}
+*/
 .footer {
   display: flex;
 
