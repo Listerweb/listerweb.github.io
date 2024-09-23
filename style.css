@@ -30,9 +30,10 @@ img {
   border-radius: 10px;
   box-shadow: none;
 }
-button {
+.button {
   font-size: 18px;
   font-weight: 500;
+  margin-top: 25px;
 }
 p {
   font-size: 18px;
