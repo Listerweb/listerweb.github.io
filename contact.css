@@ -1,0 +1,61 @@
+.contact-content-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 10px;
+}
+.contact-content {
+  margin-top: 10px;
+  position: relative;
+  height: 400px;
+  transition: 1s;
+}
+.contact-content > img {
+  height: inherit;
+}
+.contact-content > h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.contact-content:hover {
+  transition: 0.5s;
+  opacity: 0.8;
+
+  & > h2 {
+    opacity: 1;
+  }
+}
+/*Форма заполнения*/
+
+input {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 100%;
+  margin: 5px;
+  padding: 5px 0 5px 5px;
+}
+.form-inside {
+  padding: 25px;
+}
+
+.desc {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 100%;
+  margin: 5px;
+  padding: 5px 0 20px 5px;
+}
+
+label {
+  margin: 5px;
+  font-size: 13px;
+  font-style: italic;
+}
+.form-title {
+}
+h2 {
+  text-transform: uppercase;
+  color: #000000;
+}
